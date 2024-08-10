@@ -203,7 +203,7 @@ gap: 16px;
 
 
 .carrossel__titulo{
-    font-size: 75px;
+    font-size: 50px;
     font-family: var(--fonte-primaria);
     margin-top: 2%;
 }
@@ -225,7 +225,7 @@ gap: 16px;
  border-radius: 6px;
  padding: 0.5%;
  z-index: 3;
-  
+ 
  
  
     text-align: center;
@@ -245,8 +245,8 @@ text-transform: uppercase;
 
 
 .image__carrossel{
-    height: 400px;
-    width: 800px;
+    height: 300px;
+    width: 600px;
     padding: 2%;
 }
 
