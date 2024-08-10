@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeusProjetos</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <header class="cabecalho">
+        <h2 class="cabecalho__logo"><strong>AB</strong>08</h2>
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="projects.html"> Projetos</a>
+        </nav>
+    </header>
+    <main>
+    <section class="carrossel">
+        <h1 class="carrossel__titulo">Meus Projetos</h1>
+        <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><h2 class="titulo__slide">Site de Securitizadora</h2><img  class="image__carrossel" src="assets/securitizadora.png"><p  class="p__slide">Este é um siste para uma securitizadora feito com as linguagens HTML e CSS, futuramente sera aprimorado usando JavaScript.</p><a href="https://site-securitizadora.vercel.app/" class="botao__swiper"> ACESSE</a></div>
+      <div class="swiper-slide"><h2 class="titulo__slide">Site da Tesla</h2><img class="image__carrossel"  src="/assets/tesla.png"><p class="p__slide">Esta é o iconico site da tesla recriado utilizando as linguagens HTML, CSS e JS, foi utilizado como instrumento de aprendizado.</p><a href="https://site-tesla.vercel.app/" class="botao__swiper"> ACESSE</a></div>
+     
+      
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
+
+    </section>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+const swiper = new Swiper('.swiper', {
+  speed: 400,
+  spaceBetween: 100,
+});
+</script>
+</body>
+</html>

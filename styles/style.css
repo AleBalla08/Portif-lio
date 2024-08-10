@@ -1,0 +1,256 @@
+* {
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin-top: 0;
+}
+
+
+:root{
+    --cor-primaria: black;
+    --cor-secundaria: white;
+    --cor-tercearia: rgba(77, 170, 222, 1);
+    --cor-hover: #272727;
+    --fonte-primaria: "Roboto", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+   
+    font-weight: 100;
+    font-style: normal;
+    margin: 0;
+     /* height: 100vh;   */
+     width: 100vw; 
+    box-sizing: border-box;
+
+}
+
+strong{
+    color: var(--cor-secundaria)
+}
+
+.cabecalho{
+padding: 2% 0% 0% 13%;
+display: flex;
+flex-direction: row;
+gap: 50%;
+background-color: #111111;
+}
+
+.cabecalho__logo{
+    color: var(--cor-tercearia);
+    font-family: var(--fonte-primaria);
+   
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+
+
+
+.cabecalho__menu__link{
+font-family: var(--fonte-primaria);
+font-size: 1.37rem;
+font-weight: 600;
+color:var(--cor-tercearia);
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 15% 13% 15%;
+    gap: 82px;
+
+}
+
+
+.apresentacao__conteudo__escrita {
+    font-size: 1.56rem;
+    font-family: var(--fonte-primaria);
+    
+
+}
+
+
+
+
+.apresentacao__conteudo {
+    width: 50%;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 2.81rem;
+    color: var(--cor-tercearia);
+ margin-bottom: 15px;
+ font-family: var(--fonte-primaria);
+
+
+}
+
+.ola{
+    margin-bottom: 15px;
+}
+
+.apresentacao__imagem {
+    width: 50%;
+  
+
+}
+
+.apresentacao__botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 250px;
+    flex-direction: column;
+  align-items: center;
+    gap: 32px;
+    
+ 
+}
+
+.botao {
+padding: 10px;
+border-radius: 8px;
+width: 50%;
+height: 45%;
+text-align: center;
+font-size: 1.25rem;
+color: var(--cor-secundaria);
+border: 2px solid  var(--cor-tercearia) ;
+display: flex;
+justify-content: center;
+gap: 16px;
+
+
+}
+
+.parag{
+    margin-bottom: 25px;
+}
+
+.apresentacao__sub{
+ font-size: 1.5rem; 
+ font-weight: 500;
+ margin-bottom: 0;
+ 
+}
+
+.icon{
+    height: 20px;
+    width: 20px;
+    filter: opacity(75%);
+    
+}
+
+.botao:hover{
+    background-color: var(--cor-hover);
+ 
+}
+
+.rodape{
+    padding: 24px;
+    background-color:var(--cor-tercearia) ;
+    color:var(--cor-primaria);
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 1.25rem;
+    font-weight: 400;
+    
+}
+
+.parag{
+    font-family:var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.56rem;
+}
+
+@media (max-width: 1500px){
+.apresentacao{
+    flex-direction: column-reverse;
+}
+.cabecalho{
+    padding: 10%;
+ 
+}
+.cabecalho__menu{
+    justify-content: center;
+}
+.apresentacao{
+    padding: 5%;
+}
+.apresentacao__conteudo{
+    width: auto;
+
+}
+.apresentacao__botoes{
+    margin: 5%;
+  
+}
+}
+
+
+.carrossel__titulo{
+    font-size: 75px;
+    font-family: var(--fonte-primaria);
+    margin-top: 2%;
+}
+
+.titulo__slide{
+    color: var(--cor-tercearia);
+    font-family: var(--fonte-primaria);
+}
+
+.p__slide{
+    font-weight: 700;
+    font-family: var(--fonte-primaria);
+    padding: 2%;
+}
+
+.botao__swiper{
+    text-decoration: none;
+ border: 1px solid var(--cor-secundaria);
+ border-radius: 6px;
+ padding: 0.5%;
+ z-index: 3;
+  
+ 
+ 
+    text-align: center;
+    color: var(--cor-tercearia);
+    font-family: var(--fonte-primaria);
+    font-weight: 700;
+}
+
+.carrossel{
+color: var(--cor-secundaria);
+background-color: var(--cor-primaria);
+text-align: center;
+text-transform: uppercase;
+
+
+}
+
+
+.image__carrossel{
+    height: 400px;
+    width: 800px;
+    padding: 2%;
+}
+
+.swiper-slide{
+
+}
+
